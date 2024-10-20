@@ -31,5 +31,13 @@
 *.out
 *.app
 
+#debug symbols
+*.pdb
+
+#Temporary build folders
 bld/*
 build/*
+out/*
+
+#IDE Specific files
+.vs/*
