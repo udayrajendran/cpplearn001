@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 
-SET (CMAKE_CXX_COMPILER "/usr/bin/clang++" CACHE STRING "C++ compiler" FORCE)
+#SET (CMAKE_CXX_COMPILER "/usr/bin/clang++" CACHE STRING "C++ compiler" FORCE)
 project(cpplearn001 LANGUAGES CXX)
 
 add_executable(cpplearn001 main.cpp)
